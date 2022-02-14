@@ -103,6 +103,10 @@ const createHeader = (param) => {
 const movieConstructor = (selector, options) => {
     const app = document.querySelector(selector)
     app.classList.add('body-app')
+
+    app.style.backgroundImage = options.background ?
+        `url("${options.background}")` : ''
+
     document.title = options.title
 
     if (options.header) {
@@ -113,6 +117,7 @@ const movieConstructor = (selector, options) => {
 
 movieConstructor('.app', {
     title: 'Ведьмак',
+    // background: './witcher/background.jpg',
     header: {
         logo: './witcher/logo.png',
         social: [
