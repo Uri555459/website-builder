@@ -1,0 +1,24 @@
+{
+  "name": "website-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Uri555459.github.io/website-builder",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uri555459/website-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uri555459/website-builder/issues"
+  },
+  "homepage": "https://github.com/Uri555459/website-builder#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
